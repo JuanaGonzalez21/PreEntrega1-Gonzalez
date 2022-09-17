@@ -1,0 +1,23 @@
+.colorNavbar {
+    background-color: rgb(246, 218, 248);
+}
+
+/* Css Dropdow */
+.dropdown-menu{
+    margin-left: 60px;
+}
+
+.dropdown-item{
+    padding-right: 60px;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(147, 239, 239);
+    width: 90%;
+    border-radius: 4px;
+}
+
+.iconoDropdown {
+    height: 20px;
+    margin-right: 10px ;
+  }

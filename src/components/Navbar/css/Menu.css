@@ -1,0 +1,49 @@
+.centrado {
+    display:flex;
+    justify-content: center;
+    text-align: right;
+    width: 100%;
+}
+
+.centrado li{
+    padding: 0px 25px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.centrado li a{
+    margin-left: 10px;
+    padding-top: 7px;
+    color:black;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+.iconoMenu {
+    width: 40px;
+}
+
+
+
+@media (max-width: 1000px){
+    .centrado li img{
+        display:none;
+    }
+    .centrado {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 100%;
+    }
+
+    
+    
+    
+}
+
+
+
+
