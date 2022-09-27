@@ -1,5 +1,5 @@
 import React from 'react';
-import productos from './CartWidget';
+import productos from './ItemListContainer';
 import CardBody from './CardBody';
 import CardImg from './CardImg';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import CardBody from './CardBody';
 import CardImg from './CardImg';
-import './css/CartWidget.css';
+import './css/ItemListContainer.css';
 import Card from './Card';
 
 
@@ -24,10 +24,10 @@ const producto6 = new producto("Pan de Cádiz", "La tarta de limón es una tarta
 
 
 const productos = [producto1, producto2, producto3, producto4, producto5, producto6];
-const CartWidget = (nombre, value) => {
+const ItemListContainer = ({greeting}) => {
     return (
         <>
-            <h2 className="titulo_dos">Selecciona una opción</h2>
+            <h2 className="titulo_dos">{greeting}</h2>
             <div className="container mt-2">
                 <div className="row ">
                     <Card nombres={productos[0]}/>
@@ -43,4 +43,4 @@ const CartWidget = (nombre, value) => {
     );
 }
 
-export default CartWidget;
+export default ItemListContainer;

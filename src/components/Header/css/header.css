@@ -31,34 +31,5 @@
     font-family: 'Shadows Into Light', cursive;
 }
 
-.centerHeader {
     
-    width: 500px;
-    position: absolute;
-    top: 30%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-  }
 
-  @media (max-width: 1200px){ 
-    .centerHeader {
-        width: 500px;
-        position: absolute;
-        top: 30%;
-        left: 85%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-      }
-
-      .title {
-        font-size: 70px;
-
-    }
-    
-    .text {
-        font-size: 100%;
-    }
-
-    
-  }

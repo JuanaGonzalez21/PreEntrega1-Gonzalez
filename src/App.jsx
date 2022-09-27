@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
-import CartWidget from './components/CartWidget/CartWidget';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 export default function App() {
   return (
     <>
       <Navbar/>
       <Header/>
-      <CartWidget/>
+      <ItemListContainer greeting="Selecciona una opción"/>
     </>
   )
 }

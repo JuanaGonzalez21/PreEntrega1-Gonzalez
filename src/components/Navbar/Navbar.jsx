@@ -3,7 +3,7 @@ import './css/Navbar.css'
 import Icon from './Icon';
 import Menu from './Menu';
 import Form from './Form';
-
+import CartWidget from './CartWidget';
 const Navbar = () => {
     return (
         <div>
@@ -12,7 +12,7 @@ const Navbar = () => {
                     <Icon />
                     <div className="collapse navbar-collapse menu_escondido" id="navbarSupportedContent">
                         <Menu />
-                        <Form />
+                        <CartWidget />
                     </div>
                 </div>
             </nav>
