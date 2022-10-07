@@ -8,7 +8,10 @@
 }
 
 .dropdown-item{
-    padding-right: 60px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0%;   
 }
 
 .dropdown-item:hover {
@@ -21,3 +24,7 @@
     height: 20px;
     margin-right: 10px ;
   }
+
+.link {
+    text-decoration: none; 
+}

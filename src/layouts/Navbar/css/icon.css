@@ -9,12 +9,12 @@
   width: 45px;
 }
 
-.iconoCarrito:hover{
-  width: 60px;
-}
-
 .parrafoIcono{
   font-size: 25px;
   color: black;
   padding-top: 15px;
+}
+
+.itemsCarrito{
+  display: flex;
 }
